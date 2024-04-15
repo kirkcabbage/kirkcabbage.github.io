@@ -1,0 +1,112 @@
+html {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: #0FA3B1;
+    display: flex;
+    justify-content: flex-start;
+
+
+    #portrait {
+        border-radius: 10%;
+        height: 30vh;
+        margin: 10px 30px 10px 10px;
+        height: 30vh;
+    }
+
+    h1 {
+        color: #ffffff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+    }
+
+    p {
+        color: #EDDEA4;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    hr {
+        color: #ffffff;
+        border-top: 1px solid #ffffff;
+    }
+
+    #coordonnees {
+        font-style: normal;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+    }
+
+    #in {
+        height: 25px;
+        width: 25px;
+    }
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: none;
+}
+
+#formation {
+    background-color: #D9E5D6;
+    min-height: 100vh;
+    padding: 5%;
+    
+    h2{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+    }
+}
+
+#experience {
+    background-color: #F7A072;
+    min-height: 100vh;
+    padding: 5%;
+
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        margin-bottom: 20px
+    }
+}
+
+.diplome{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.ecole-date{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    line-height: 40px;
+}
+
+ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
